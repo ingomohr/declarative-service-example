@@ -7,9 +7,8 @@ Example of PDE based OSGi DS with Annotations (Neon)
 * Note: Service impl should be in extra bundle so it can be exchanged later on.
 
 # How to Run
-* Clone into Eclipse Neon
-* Create "OSGi Framework" Run Config as decribed in tutorial below.
-* Run config
+* Clone Git repo and import into Eclipse Neon (RCP Bundle should do)
+* Run launch config **DS_Test.launch** (stored in declarative-service-example-command)
 * In OSGi Console enter e.g.:
 
 ```
@@ -19,4 +18,5 @@ Example of PDE based OSGi DS with Annotations (Neon)
 
 # Links
 http://blog.vogella.com/2016/06/21/getting-started-with-osgi-declarative-services/
+https://www.eclipse.org/eclipse/news/4.6/pde.php (with entry regarding new DS annotation mechanism)
 
