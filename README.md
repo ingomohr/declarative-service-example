@@ -8,8 +8,7 @@ Example of PDE based OSGi DS with Annotations (Neon)
 
 # How to Run
 * Clone into Eclipse Neon
-* Create "OSGi Framework" Run Config as decribed in tutorial below.
-* Run config
+* Run launch config **DS_Test.launch** (stored in declarative-service-example-command)
 * In OSGi Console enter e.g.:
 
 ```
