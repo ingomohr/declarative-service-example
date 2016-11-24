@@ -20,3 +20,7 @@ osgi> calculator:calc "1" "41"
 http://blog.vogella.com/2016/06/21/getting-started-with-osgi-declarative-services/
 https://www.eclipse.org/eclipse/news/4.6/pde.php (with entry regarding new DS annotation mechanism)
 
+
+# Further Things to Check
+Use DS as replacement for extension points. (could be useful to get rid of problems with registration restrictions and stuff)
+
