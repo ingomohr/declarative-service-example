@@ -7,7 +7,7 @@ Example of PDE based OSGi DS with Annotations (Neon)
 * Note: Service impl should be in extra bundle so it can be exchanged later on.
 
 # How to Run
-* Clone into Eclipse Neon
+* Clone Git repo and import into Eclipse Neon (RCP Bundle should do)
 * Run launch config **DS_Test.launch** (stored in declarative-service-example-command)
 * In OSGi Console enter e.g.:
 
