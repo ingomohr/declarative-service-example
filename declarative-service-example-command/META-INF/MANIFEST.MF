@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Declarative-service-example-command
+Bundle-SymbolicName: declarative-service-example-command
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: de.ingomohr.ds.sample.service;version="1.0.0",
+ org.apache.felix.service.command;status=provisional;version="0.10.0",
+ org.osgi.service.component.annotations;version="[1.2.0,2.0.0)";resolution:=optional
+Service-Component: OSGI-INF/de.ingomohr.ds.sample.service.command.CalculatorCommand.xml
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="de.ingomohr.ds.sample.service.command.CalculatorCommand">
+   <property name="osgi.command.scope" type="String" value="ingomohr"/>
+   <property name="osgi.command.function" type="String" value="calc"/>
+   <service>
+      <provide interface="de.ingomohr.ds.sample.service.command.CalculatorCommand"/>
+   </service>
+   <reference bind="bindCalculator" cardinality="1..1" interface="de.ingomohr.ds.sample.service.ICalculatorService" name="Calculator" policy="static" unbind="unbindCalculator"/>
+   <implementation class="de.ingomohr.ds.sample.service.command.CalculatorCommand"/>
+</scr:component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="de.ingomohr.ds.sample.service.impl.CalculatorServiceImpl">
+   <service>
+      <provide interface="de.ingomohr.ds.sample.service.ICalculatorService"/>
+   </service>
+   <implementation class="de.ingomohr.ds.sample.service.impl.CalculatorServiceImpl"/>
+</scr:component>

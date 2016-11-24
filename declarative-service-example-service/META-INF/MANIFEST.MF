@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Declarative-service-example
+Bundle-SymbolicName: declarative-service-example-service
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.equinox.ds;bundle-version="1.4.400",
+ org.eclipse.core.runtime;bundle-version="3.12.0",
+ org.eclipse.equinox.util;bundle-version="1.0.500",
+ org.eclipse.osgi.services;bundle-version="3.5.100"
+Service-Component: OSGI-INF/component.xml
+Bundle-ActivationPolicy: lazy
+Export-Package: de.ingomohr.ds.sample.service;version="1.0.0"
