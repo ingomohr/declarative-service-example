@@ -7,7 +7,7 @@ import org.osgi.service.component.annotations.Reference;
 import de.ingomohr.ds.sample.service.ICalculatorService;
 
 @Component(property = {
-		CommandProcessor.COMMAND_SCOPE + ":String=ingomohr",
+		CommandProcessor.COMMAND_SCOPE + ":String=calculator",
 		CommandProcessor.COMMAND_FUNCTION + ":String=calc"
 	},
 	service=CalculatorCommand.class
