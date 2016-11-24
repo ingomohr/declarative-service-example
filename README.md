@@ -18,4 +18,5 @@ Example of PDE based OSGi DS with Annotations (Neon)
 
 # Links
 http://blog.vogella.com/2016/06/21/getting-started-with-osgi-declarative-services/
+https://www.eclipse.org/eclipse/news/4.6/pde.php (with entry regarding new DS annotation mechanism)
 
