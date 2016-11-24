@@ -12,8 +12,8 @@ Example of PDE based OSGi DS with Annotations (Neon)
 * In OSGi Console enter e.g.:
 
 ```
-  osgi> calc "1" "41"
-  1 + 41 = 42
+osgi> calculator:calc "1" "41"
+1 + 41 = 42
 ```
 
 # Links
