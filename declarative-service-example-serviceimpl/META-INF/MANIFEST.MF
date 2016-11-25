@@ -6,5 +6,6 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: de.ingomohr.ds.sample.service;version="1.0.0",
  org.osgi.service.component.annotations;version="[1.2.0,2.0.0)";resolution:=optional
-Service-Component: OSGI-INF/de.ingomohr.ds.sample.service.impl.CalculatorServiceImpl.xml
+Service-Component: OSGI-INF/de.ingomohr.ds.sample.service.impl.CalculatorServiceImpl.xml,
+ OSGI-INF/de.ingomohr.ds.sample.service.impl.CalculatorServiceImpl2.xml
 Bundle-ActivationPolicy: lazy
