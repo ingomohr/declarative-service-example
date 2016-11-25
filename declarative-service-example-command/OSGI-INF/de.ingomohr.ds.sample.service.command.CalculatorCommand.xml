@@ -5,6 +5,6 @@
    <service>
       <provide interface="de.ingomohr.ds.sample.service.command.CalculatorCommand"/>
    </service>
-   <reference bind="bindCalculator" cardinality="1..1" interface="de.ingomohr.ds.sample.service.ICalculatorService" name="Calculator" policy="static" unbind="unbindCalculator"/>
+   <reference bind="bindCalculator" cardinality="1..n" interface="de.ingomohr.ds.sample.service.ICalculatorService" name="Calculator" policy="static" unbind="unbindCalculator"/>
    <implementation class="de.ingomohr.ds.sample.service.command.CalculatorCommand"/>
 </scr:component>
